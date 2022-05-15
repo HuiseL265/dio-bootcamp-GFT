@@ -1,0 +1,72 @@
+*Conceituação e Criação:
+
+Padrão de definição:
+
+<?visibilidade?><?modificador?> tipo nome <?=valorInicial?>
+
+V: "public", "protected" e "private"
+M: "static" e "final"
+T: tipo de dado (SEMPRE deve ser informado)
+N: nome que é fornecido a variavel 
+VI: um valor inicial, caso se deseje
+
+Convenções e regras para criação de variáveis:
+
+- Não devem começar com números;
+- Embora permitido, caracteres especiais como "$" e "_" devem ser evitados;
+- São case-sensitive;
+- Sem espaços;
+- Não podem ser as palavras reservadas do Java.
+
+Boas práticas nas criações de variáveis:
+
+-Sempre começar com letra minúscula;
+-Nomes expressivos;
+-Notação camelo; ex: valorInicial;
+-Quando constante(final) maiúscula e separada por "_";
+
+
+
+*Tipos de dados:
+
+Pesquisar: tipos de dados compilados x interpretados
+
+Tipificação:
+-Estática(forte) vs Dinâmica(fraco)
+-Primitivo vs Composto
+
+
+Operadores Aritméticos:
+-Pós-fixado: exp++ ou exp--
+-Pré-fixado: ++exp ou --exp
+-Aritmético: +, -, *, / e %
+-Atribuição: =, +=, -=, *=, /= e %=
+
+Precedências:
+1° pré-fixado
+2° pós-fixado
+3° multiplicativo
+4° aditivo
+5° atribuição
+
+*Conversões(casting):
+
+Tipo:
+-Upcast(implícito)
+-Downcast(explícito)
+
+Ao efetuar o Downcast, é NECESSÁRIO explicitar qual o tipo que será trocado. Já o Upcast não precisa.
+
+ex:
+byte b1;
+short s1 = 1000;
+b1 = (byte) s1;
+
+print console > b1: -24
+
+int i4;
+float f4 = 11.4697F;
+i4 = f4;
+
+print console > i4: 11
+
