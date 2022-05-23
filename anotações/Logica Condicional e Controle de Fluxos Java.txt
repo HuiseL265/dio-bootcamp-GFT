@@ -1,0 +1,100 @@
+OPERADORES RELACIONAIS
+
+"São símbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado
+
+== igual
+!= diferente
+>= maior ou igual
+> maior
+< menor
+<= menor ou igual
+...
+
+OPERADORES LÓGICOS
+
+"São símbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e, em seguida, retornar um resultado"
+
+Tipo:
+-Conjunção 
+ -Simbologia: &&
+ -Terminologia: and(e)
+
+-Disjunção
+ -Simbologia: ||
+ -Terminologia: or(ou)
+
+-Disjunção exclusiva (operação que só é verdade quando  ambos os operandos ou expressões são opostos)
+ -Simbologia: ^
+ -Terminologia: xor
+
+-Negação
+ -Simbologia: !
+ -Terminologia: inverção
+
+utilizados raramente
+Operadores bitwise: & e | (não confundir com operadores lógicos)
+
+Operadores shift:~,>>,>>>,<<
+
+
+Boas práticas
+
+-Crie variáveis auxiliares para guardar resultados intermediários
+
+Ex:
+(salarioMensal < mediaSalario && (quantidadeDependentes >= mediaDependentes)
+
+pode ser reduzido por
+
+(salarioBaixo)&&(muitosDependentes)
+
+boolean recebeAuxilio = (salarioBaixo) && (muitosDependentes)
+
+CONTROLE DE FLUXO
+
+Conceituação
+
+"São estruturas que tem a capacidade de direcionar o fluxo de execução do código"
+
+Tipo:
+-Decisão:if,if-else,if-else-if,switch e operador ternário
+-Repetição:for,while,do while
+-Interrupção:break, continue e return
+
+Operador Ternário (deve ser evitado pois mancham muito a qualidade de leitura do código)
+
+formato: condição ? true : false;
+
+ex: ligado ? desligar : ligar;
+    emMovimento ? freia : null;
+
+Boas Práticas
+-Switch é para valores exatos e if para expressões booleanas
+-Evitar usar o default do switch para "cases genéricos"
+   usar o default apenas para informar que o        valor passado é invalido.
+-Evitar o efeito "flecha" dos if's
+-Evitar muitos if's aninhados
+
+
+BLOCOS
+
+"É um grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação"
+
+blocos de execução:
+	{
+
+	...
+
+	}
+
+Tipo:
+-Locais: dentro de métodos
+-Estáticos: dentro de classes
+-Instâncias: dentro de classes
+
+
+
+
+
+
+

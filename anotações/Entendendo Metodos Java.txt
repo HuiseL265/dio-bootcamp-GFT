@@ -1,0 +1,20 @@
+SOBRECARGA
+
+"É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome."
+
+mantemos os mesmos nomes mas alteramos a lista de parâmetros
+
+assinatura = nome + parâmetros
+
+converterParaInteiro(float f); "metodo inicial criado"
+converterParaInteiro(double f); "sobrecarga"
+converterParaInteiro(String f); "sobrecarga"
+
+RETORNOS
+
+Funcionamento
+
+O método executa seu retorno quando:
+-Completa todas suas instruções internas
+-Chega a uma declaração explicita de retorno
+-Lança uma exceção
