@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.time.LocalTime.now;
 
-public class Exercicio1 {
+public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
