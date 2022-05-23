@@ -1,4 +1,4 @@
-package EntendendoMetodosJava.Exercicio1;
+package MetodosJava.Exercicio1;
 
 import java.util.Scanner;
 

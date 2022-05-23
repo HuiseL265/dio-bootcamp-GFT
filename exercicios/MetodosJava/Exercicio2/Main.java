@@ -1,4 +1,4 @@
-package EntendendoMetodosJava.Exercicio2;
+package MetodosJava.Exercicio2;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package LogicaCondicionalEControleDeFluxo.Exercicio;
+package LogicaCondicionalEControleDeFluxo;
 
 import java.util.Scanner;
 
